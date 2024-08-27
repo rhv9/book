@@ -1,0 +1,6 @@
+[book]
+authors = ["rhv9"]
+language = "en"
+multilingual = false
+src = "pages"
+title = "Microsoft Azure"
