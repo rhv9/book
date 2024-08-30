@@ -12,6 +12,8 @@
 - [ARM Templates and Resource Group]()
 - [Azure SQL Database Service]()
 - [Azure Storage Service](./intro_azure_storage_service.md)
+    - [Creating Storage account](./AzureStorage/intro_azure_storage_service.md)
+    - [Blob Storage](./AzureStorage/blob_storage.md)
 - [Programming Storage]()
 - [Virtual Machine]()
 - [Azure Subscription and RBAC]()

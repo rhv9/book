@@ -2,6 +2,10 @@
 
 ## Introduction
 
+> For queues, service bus is a better solution. And for tables, CosmosDB is a better solution.
+
+> Up to 500TB in each storage account.
+
 Where the data will be stored.
 
 Three types of data:
