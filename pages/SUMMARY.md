@@ -14,6 +14,7 @@
 - [Azure Storage Service](./intro_azure_storage_service.md)
     - [Creating Storage account](./AzureStorage/intro_azure_storage_service.md)
     - [Blob Storage](./AzureStorage/blob_storage.md)
+    - [SAS Keys and Azure AD](./AzureStorage/sas_keys_and_azure_ad.md)
 - [Programming Storage]()
 - [Virtual Machine]()
 - [Azure Subscription and RBAC]()
