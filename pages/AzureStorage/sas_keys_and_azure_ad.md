@@ -61,10 +61,3 @@ The new way to authenticate is to use Azure Active Directory accounts. We can cr
 Storage account permissions only allow us to manage the storage account (e.g access torage account portal). Without the actual data permissions, we cannot view the data.
 
 Likewise, data permissions only give us access to the data, meaning we cannot acccess the storage account space with just this permission.
-
-
-
-
-
-
-
