@@ -42,3 +42,21 @@ Since do not have certificate server, use self-signed certificate.
 - Authentication types??? Azure certificate vs RADIUS authentication, Azure Active Directory.
 
 To prove it is working, we can use NetworkWatcher or RDP, or starting web server locally and being able to access it from VM inside VNet.
+
+## VNet Peering
+
+The new method of connecting vnets in cloud instead of VPN Gateway. Seamlessly connect two vnets.
+
+**Benefits**
+1. Easy to setup
+2. Works cross region
+3. All traffic is private and routed through Microsoft Infrastructure.
+4. Deploy over subscription and regions.
+
+**Cons**
+1. Peering is not transitive. Therefore, if VNet 1 peered to VNet 2 and VNet 2 peered to VNet 3, VNet 1 cannot communicate to VNet 3.
+2. No overlapping IP address space or range?
+
+The VNet peering page will create vnet for both this and remove vnet.
+
+Vnet syncing is required when editing any of the vnets address space.
