@@ -60,3 +60,18 @@ The new method of connecting vnets in cloud instead of VPN Gateway. Seamlessly c
 The VNet peering page will create vnet for both this and remove vnet.
 
 Vnet syncing is required when editing any of the vnets address space.
+
+### Configuration
+
+There are 4 main configuration settings when creating a vnet peering to control what type of traffic is allowed.
+
+From the local perspective:
+
+1. Traffic from local to remote vnet is allowed.
+2. Forwarded traffic coming from remote vnet is allowed into local vnet.
+3. Allow gateway or route server traffic from local forward to remote vnet.
+4. Gateway or Route server traffic forwarded from remote is allowed to local vnet.
+
+### VPN Gataway
+
+We can use VPN Gateway to configure P2S VPN. 
