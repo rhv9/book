@@ -13,7 +13,7 @@
     - [Useful Cmdlets](./PowerShell/useful_cmdlets.md)
     - [Scripting](./PowerShell/scripting.md)
     - [Azure PowerShell](./PowerShell/azure_powershell.md)
-- [ARM Templates and Resource Group]()
+- [ARM Templates and Resource Group](./ARMTemplatesAndResourceGroup/intro.md)
 - [Azure SQL Database Service]()
 - [Azure Storage Service](./intro_azure_storage_service.md)
     - [Creating Storage account](./AzureStorage/intro_azure_storage_service.md)
