@@ -14,6 +14,7 @@
     - [Scripting](./PowerShell/scripting.md)
     - [Azure PowerShell](./PowerShell/azure_powershell.md)
 - [ARM Templates and Resource Group](./ARMTemplatesAndResourceGroup/intro.md)
+    - [Creating and Deploying ARM Templates](./ARMTemplatesAndResourceGroup/creating_and_deploying_arm_templates.md)
 - [Azure SQL Database Service]()
 - [Azure Storage Service](./intro_azure_storage_service.md)
     - [Creating Storage account](./AzureStorage/intro_azure_storage_service.md)

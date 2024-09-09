@@ -6,6 +6,8 @@ In Azure, resources/services and operations are provided by Resource Providers. 
 
 ```<resource-provider>/<resource-type>```
 
+This format specifies a resource that an ARM template is creating.
+
 ## ARM Templates
 
 Azure Resource Manager is the new way in which resources are created in Azure. The old method that Azure Portal and Azure PowerShell used was *Service Management API*. The problem with the old system is of it being serially executed, each call only creates a single resource, and having to write custom scripts to check if resource exists or not before performing tasks. 
