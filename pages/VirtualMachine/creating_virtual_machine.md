@@ -1,5 +1,14 @@
 # Creating Virtual Machine
 
+> Check this link for creating with custom init. https://cloudinit.readthedocs.io/en/latest/reference/examples.html
+
+Some of the main points to think about when creating a virtual machine can be broken down to these domains:
+
+1. hardwareProfile
+2. osProfile
+3. storageProfile
+4. networkProfile
+
 ## New points that are not in old video
 
 - Hibernation
