@@ -31,8 +31,9 @@
 - [Azure Subscription and RBAC](./AzureSubscriptionAndRBAC/intro_subscription_and_rbac.md)
     - [How are Azure Subscriptions and Azure AD related](./AzureSubscriptionAndRBAC/azure_subscription_and_rbac_relation.md)
     - [RBAC](./AzureSubscriptionAndRBAC/rbac.md)
-- [Azure Governance]()
-- [Azure Backup and Restore]()
+- [Azure Governance](./AzureGovernance/intro_governance.md)
+    - [Azure Policy](./AzureGovernance/azure_policy.md)
+- [Azure Backup and Restore](./AzureBackupAndRestore/intro_backup.md)
 - [Azure Automation]()
 - [Azure Monitoring and log Analytics ](./AzureMonitoringAndLogAnalytics/intro_monitoring.md)
 - [Administrating Microsoft Entra ID(Azure AD)](./AdministratingMicrosoftEntraID/intro_entra_id.md)
@@ -60,8 +61,6 @@
     - [How to...](Extra/how_to.md)
     - [Questions I avoid](Extra/questions_i_avoid.md)
     - [Exam question tricks](Extra/exam_question_tricks.md)
-
-
 
 
 ---- 
