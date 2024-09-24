@@ -14,6 +14,9 @@
 
 1. How to add custom domain to tenants, services, etc.
 
+## App Service Plan
+
+1. Can you create Windows and Linux app service plan in the same region and same resource group? What combination is not allowed because in the past, there were restrictions.
 
 ## Not as important
 
