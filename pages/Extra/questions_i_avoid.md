@@ -39,6 +39,9 @@
 
 1. What are the different ways I can use remediation action? What if it is a property that cannot be changed without recreating resource? What if there are multiple allowed values, do we set which value for any that do not meet?q
 
+## App Service Plan
+
+1. Can you create Windows and Linux app service plan in the same region and same resource group? What combination is not allowed because in the past, there were restrictions.
 
 ## Not as important
 

@@ -42,6 +42,8 @@
     - [Users and Groups](./AdministratingMicrosoftEntraID/users_and_groups.md)
 - [Developing using Entra ID (Azure AD)]()
 - [Azure App Service - Web Apps](./AzureAppServiceWebApps/intro_app_service_web_apps.md)
+    - [Publish using Profile](./AzureAppServiceWebApps/publish_using_profile.md)
+    - [App Service Plan](./AzureAppServiceWebApps/app_service_plan.md)
 - [Azure Web Jobs]()
 - [Azure Functions]()
 - [Azure App Service - API Apps]()
