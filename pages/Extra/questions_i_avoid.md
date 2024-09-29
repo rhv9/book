@@ -1,5 +1,14 @@
 # Questions I avoid
 
+## High level questions
+
+1. What is it?
+2. Why should you use it?
+3. How to keep costs low?
+4. How to configure for larger scale?
+5. Which service/resource would be the best architectural choice? *Taking into account costs, availability, scaling*
+6. What software architectures does this fit into?s
+
 ## VM
 
 1. What about availability sets?
