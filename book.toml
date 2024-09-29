@@ -7,3 +7,7 @@ title = "Microsoft Azure"
 
 [preprocessor.last_modified]
 command = "python last_modified.py"
+
+[output.html]
+git-repository-url = "https://github.com/rhv9/book"
+additional-js = ["custom.js"]

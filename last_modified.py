@@ -33,7 +33,7 @@ class FileLogger:
     def print(self, message: str):
         self.logger.info(message)
 
-def recursiveEdit(items):
+def recursiveAddCommitTime(items):
     for section in items:
         if section == "Separator" or section == None:
             continue
@@ -44,61 +44,22 @@ def recursiveEdit(items):
         if chapterPath != None:
             file_path = "./pages/" + chapterPath
             process = subprocess.run(["git", "log", "-1", "--format=%cd", file_path], capture_output=True)
+            
+            # This is using last modified time from file
             # mtime = os.path.getmtime(file_path)
             # mTimeString = time.ctime(mtime)
             # readableElapsedTime = getReadableTimeAgo(time.time(), mtime)
             mTimeString = str(process.stdout)[2:-2]
             
             readableElapsedTime = ""
-            logger.print("Last modified time:" + mTimeString)
-
             section['Chapter']['content'] = "*last modified: "+readableElapsedTime+" ("+mTimeString+")*\n\n" + section['Chapter']['content']
 
         chapterSubItems = section['Chapter']['sub_items']
 
-        logger.print(chapterName + ", path: " + str(chapterPath))
-
         if len(chapterSubItems) != 0:
-            recursiveEdit(chapterSubItems)
+            recursiveAddCommitTime(chapterSubItems)
 
 
-def getReadableTimeAgo(tbig, tsmall):
-    week = 60 * 60 * 24 * 7
-    seconds = tbig - tsmall
-
-    # within minute, give seconds
-    if seconds < 60:
-        return str(seconds) + " seconds ago"
-    
-    # within hour, give minutes
-    minutes = seconds / 60.0
-    if minutes < 60.0:
-        return str(round(minutes)) + " minutes ago"
-
-    # within day, give hours
-    hours = minutes / 60.0
-    if hours < 24:
-        return str(round(hours)) + " hours ago"
-    
-    # within week, give days
-    days = hours / 24.0
-    if days < 7:
-        return str(round(days)) + " days ago"
-    
-    # within within a month, give weeks
-    weeks = days / 7.0
-    if weeks < 4:
-        return round(weeks) + " weeks ago"
-    
-    # within a year, give months
-    
-
-    # give years
-
-    return tbig - tsmall
-
-
-            
 if __name__ == '__main__':
     if len(sys.argv) > 1: # we check if we received any argument
         if sys.argv[1] == "supports": 
@@ -107,8 +68,6 @@ if __name__ == '__main__':
 
     # load both the context and the book representations from stdin
     context, book = json.load(sys.stdin)
-    # and now, we can just modify the content of the first chapter
-    book['sections'][0]['Chapter']['content'] = '# Hello'
     
     # Dump json
     # f = open("jsonDump.json", "w")
@@ -117,10 +76,7 @@ if __name__ == '__main__':
     # Debugging printer
     logger = FileLogger("preprocessor.log")
 
-    i = 0
-
-    recursiveEdit(book['sections'])
-
-
+    recursiveAddCommitTime(book['sections'])
+    
     # we are done with the book's modification, we can just print it to stdout, 
     print(json.dumps(book)) 
