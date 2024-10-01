@@ -50,11 +50,17 @@ function getReadableString(tbig, tsmall) {
 
 /** @type {string} */
 let mtime = document.getElementById("content").childNodes[1].childNodes[1].innerText + ""
+
+// by default, assume there is no commit.
 mtime = mtime.slice("last modified: (".length, -1)
+let readableTime = "new"
 
-let mtimeDate = new Date(mtime)
-let currentTime = new Date()
-
-let readableTime = getReadableString(currentTime, mtimeDate)
+if (mtime != "no commit") {
+    
+    let mtimeDate = new Date(mtime)
+    let currentTime = new Date()
+    
+    readableTime = getReadableString(currentTime, mtimeDate)
+}
 
 document.getElementById("content").childNodes[1].childNodes[1].innerHTML = "<em>last modified: " + readableTime + " (" + mtime + ")</em>"

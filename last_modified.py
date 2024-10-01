@@ -49,10 +49,15 @@ def recursiveAddCommitTime(items):
             # mtime = os.path.getmtime(file_path)
             # mTimeString = time.ctime(mtime)
             # readableElapsedTime = getReadableTimeAgo(time.time(), mtime)
-            mTimeString = str(process.stdout)[2:-2]
             
             readableElapsedTime = ""
-            section['Chapter']['content'] = "*last modified: "+readableElapsedTime+" ("+mTimeString+")*\n\n" + section['Chapter']['content']
+            mTimeString = str(process.stdout)[2:-2]
+            if len(mTimeString) == 0:
+                readableElapsedTime = "no commit"
+            else:
+                readableElapsedTime = mTimeString
+                
+            section['Chapter']['content'] = "*last modified: "+" ("+readableElapsedTime+")*\n\n" + section['Chapter']['content']
 
         chapterSubItems = section['Chapter']['sub_items']
 
