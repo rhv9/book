@@ -14,6 +14,7 @@
     - [NAT Gateway](./LoadBalancingSolutions/nat_gateway.md)
     - [Application Gateway](./LoadBalancingSolutions/application_gateway.md)
     - [Traffic Manager](./LoadBalancingSolutions/traffic_manager.md)
+    - [FrontDoor](./LoadBalancingSolutions/frontdoor.md)
 - [PowerShell and CLI](./PowerShell/intro_powershell.md)
     - [Useful Cmdlets](./PowerShell/useful_cmdlets.md)
     - [Scripting](./PowerShell/scripting.md)

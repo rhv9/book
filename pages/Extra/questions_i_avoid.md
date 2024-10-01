@@ -52,6 +52,12 @@
 
 1. Can you create Windows and Linux app service plan in the same region and same resource group? What combination is not allowed because in the past, there were restrictions.
 
+## Load Balancing
+
+1. Cookie-based affinity
+2. HTTP settings
+3. How long is a session kept persistent? ie goes to the same instance in backend pool.
+
 ## Not as important
 
 
