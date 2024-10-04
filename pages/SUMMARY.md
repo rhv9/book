@@ -35,6 +35,7 @@
     - [Creating Virtual Machine](./VirtualMachine/creating_virtual_machine.md)
     - [Virtual Machine Disks](./VirtualMachine/vm_disk.md)
 - [Azure Subscription and RBAC](./AzureSubscriptionAndRBAC/intro_subscription_and_rbac.md)
+    - [Types of Subscriptions](./AzureSubscriptionAndRBAC/types_of_subscription.md)
     - [How are Azure Subscriptions and Azure AD related](./AzureSubscriptionAndRBAC/azure_subscription_and_rbac_relation.md)
     - [RBAC](./AzureSubscriptionAndRBAC/rbac.md)
 - [Azure Governance](./AzureGovernance/intro_governance.md)
