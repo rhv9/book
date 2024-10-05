@@ -37,6 +37,7 @@
 - [Azure Subscription and RBAC](./AzureSubscriptionAndRBAC/intro_subscription_and_rbac.md)
     - [Types of Subscriptions](./AzureSubscriptionAndRBAC/types_of_subscription.md)
     - [How are Azure Subscriptions and Azure AD related](./AzureSubscriptionAndRBAC/azure_subscription_and_rbac_relation.md)
+    - [Management Groups and Resource Groups](./AzureSubscriptionAndRBAC/management_groups_and_resource_groups.md)
     - [RBAC](./AzureSubscriptionAndRBAC/rbac.md)
 - [Azure Governance](./AzureGovernance/intro_governance.md)
     - [Azure Policy](./AzureGovernance/azure_policy.md)

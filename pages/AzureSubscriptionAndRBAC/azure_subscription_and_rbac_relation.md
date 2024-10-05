@@ -4,7 +4,14 @@
 
 Now what is the relationship between Azure Subscription and Azure Active Directory.
 
-## Azure Active Directory
+- You can transfer billing ownership via overview in Azure Portal.
+- Each subscription can only have one Account Administrator and one Service Administrator
+
+**Subscriptions** are a container for billing information.
+
+- One subscription can only have one Azure EntraID as it's identity source, but one EntraID can have multiple subscriptions.
+
+## Azure Entra ID
 
 It contains Users, Groups and Service principles.
 
@@ -31,3 +38,7 @@ Think of AD as different organisations.
 
 ### External Identities
 You can select external identity providers. By default, it is Microsoft Entra ID, Email one-time passcode, and Microsoft. You can also add Google and Facebook.
+
+## Types of permissions
+
+For Azure EntraID permissions, these are administrator permissions. Whereas for subscription permissions, these are called Role-Based Access Control (RBAC).

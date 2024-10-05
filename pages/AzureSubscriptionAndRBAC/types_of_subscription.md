@@ -9,3 +9,5 @@ The subscription determines how the billing is done. Every subscription has an A
 3. *Azure pay-as-you-go*: billing is charged the moment a billed service starts charging. 
 4. *Azure Visual Studio Enterprise* / *Azure Visual Studio Professional*: $150 credit / month. Strictly meant for dev purposes. Once the credit is finished, the account is disabled until the next month. Cannot convert to pay-as-you-go.
 5. *Azure Sponsorship*: Can speak with Azure support to get a sponsorhip for your project, such as startup, where they will give you a fixed amount of credits for a duration until your business becomes profitable.
+
+> Note! When creating a subscription with a user id, that user id becomes the subsciptions **Account Administrator** and **Service Administrator**.
