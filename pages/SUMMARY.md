@@ -43,6 +43,7 @@
 - [Virtual Machine](./VirtualMachine/intro_virtual_machine.md)
     - [Creating Virtual Machine](./VirtualMachine/creating_virtual_machine.md)
     - [Virtual Machine Disks](./VirtualMachine/vm_disk.md)
+    - [Disk Encryption](./VirtualMachine/disk_encryption.md)
 
 - [Azure Subscription and RBAC](./AzureSubscriptionAndRBAC/intro_subscription_and_rbac.md)
     - [Types of Subscriptions](./AzureSubscriptionAndRBAC/types_of_subscription.md)
