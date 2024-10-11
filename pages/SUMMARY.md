@@ -45,6 +45,7 @@
     - [Virtual Machine Disks](./VirtualMachine/vm_disk.md)
     - [Disk Encryption](./VirtualMachine/disk_encryption.md)
     - [Disk Snapshot](./VirtualMachine/disk_snapshot.md)
+    - [VM Capture Image](./VirtualMachine/vm_capture_image.md)
     - [Custom Script Extension](./VirtualMachine/custom_script_extension.md)
     - [Desired State Configuration](./VirtualMachine/desired_state_configuration.md)
     - [Virtual Machine Scale Sets](./VirtualMachine/vmss.md)
