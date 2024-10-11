@@ -44,8 +44,12 @@
     - [Creating Virtual Machine](./VirtualMachine/creating_virtual_machine.md)
     - [Virtual Machine Disks](./VirtualMachine/vm_disk.md)
     - [Disk Encryption](./VirtualMachine/disk_encryption.md)
+    - [Disk Snapshot](./VirtualMachine/disk_snapshot.md)
+    - [Custom Script Extension](./VirtualMachine/custom_script_extension.md)
+    - [Desired State Configuration](./VirtualMachine/desired_state_configuration.md)
+    - [Virtual Machine Scale Sets](./VirtualMachine/vmss.md)
 
-- [Azure Subscription and RBAC](./AzureSubscriptionAndRBAC/intro_subscription_and_rbac.md)
+- [Azure Subscription and RBA0C](./AzureSubscriptionAndRBAC/intro_subscription_and_rbac.md)
     - [Types of Subscriptions](./AzureSubscriptionAndRBAC/types_of_subscription.md)
     - [How are Azure Subscriptions and Azure AD related](./AzureSubscriptionAndRBAC/azure_subscription_and_rbac_relation.md)
     - [Management Groups and Resource Groups](./AzureSubscriptionAndRBAC/management_groups_and_resource_groups.md)
