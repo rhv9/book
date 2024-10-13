@@ -62,6 +62,7 @@
     - [Lock, Quotas, Tag, Cost, Advisor](./AzureGovernance/misc_governance.md)
 
 - [Azure Backup and Restore](./AzureBackupAndRestore/intro_backup.md)
+    - [VM Backup and Restore](./AzureBackupAndRestore/vm_backup_and_restore.md)
 
 - [Azure Automation]()
 

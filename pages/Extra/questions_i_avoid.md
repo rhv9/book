@@ -58,6 +58,11 @@
 2. HTTP settings
 3. How long is a session kept persistent? ie goes to the same instance in backend pool.
 
+## Backup
+
+1. What is Azure Backup Center? Sounds like the new way to do things?
+2. I don't understand the daily, weekly, monthly, yearly retention policies for Backup Policy.
+
 ## Not as important
 
 
