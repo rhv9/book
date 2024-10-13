@@ -66,6 +66,9 @@
 - [Azure Automation]()
 
 - [Azure Monitoring and log Analytics ](./AzureMonitoringAndLogAnalytics/intro_monitoring.md)
+    - [Capture and View Metric](./AzureMonitoringAndLogAnalytics/capture_and_view_metric.md)
+    - [Managing Alerts](./AzureMonitoringAndLogAnalytics/managing_alerts.md)
+    - [Log Analytics Workspace](./AzureMonitoringAndLogAnalytics/log_analytics_workspace.md)
 
 - [Administrating Microsoft Entra ID(Azure AD)](./AdministratingMicrosoftEntraID/intro_entra_id.md)
     - [Entra ID Tenants](./AdministratingMicrosoftEntraID/entra_id_tenants.md)
