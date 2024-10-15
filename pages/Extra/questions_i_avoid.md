@@ -57,11 +57,17 @@
 1. Cookie-based affinity
 2. HTTP settings
 3. How long is a session kept persistent? ie goes to the same instance in backend pool.
+4. What is the requirement for VM to be in the same backend pool for each SKU type.
+5. What is application gateway?
 
 ## Backup
 
 1. What is Azure Backup Center? Sounds like the new way to do things?
 2. I don't understand the daily, weekly, monthly, yearly retention policies for Backup Policy.
+
+## VPN Connection
+
+- Can you use Azure AD to allow P2S connections?
 
 ## Not as important
 
