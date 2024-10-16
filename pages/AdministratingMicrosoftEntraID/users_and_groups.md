@@ -4,7 +4,7 @@ When you create a Tenant (Azure EntraID), we have to add users to it before they
 
 Users by default are granted *zero* permissions (Zero trust policy).
 
-There are two types of users we can add to a Tenant:
+There are three types of users we can add to a Tenant:
 
 1. Member
 
@@ -16,9 +16,14 @@ By default, all tenants get a verified domain name based on the identity of the 
 
 A guest user is a user who is invited by email. The invited user will then have to accept the invite. 
 
-## Service Principals
+3. Hybrid
 
-Service principals are special identities created for applications to use when trying to authenticate to developed applciations. Its login credentials consist of a client ID and client secret.
+These are users that have been synced with on-premise ADDS.
+
+## Service Principals
+> Note! There is a difference between Security Principal and Service Principal. Security principal is an umbrella term for any object that is requesting access to a resource. So these are users, groups, service principal and managed identities.
+
+Service principals are special identities created for applications to use when trying to authenticate to developed applications. Its login credentials consist of a client ID and client secret.
 
 ## Groups
 
