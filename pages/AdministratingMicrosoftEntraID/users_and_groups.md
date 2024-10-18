@@ -48,3 +48,9 @@ We can automatically add or remove users from a group using dynamic users list.
 Assignment is based on pre-defined rules based on the properities of the user. We can create a logical combination of properties to determine if a user is a member or not.
 
 > Note: Once you have used Group Assignment, the option to manually add members is gone.
+
+## Bulk Users
+
+You can *Bulk Create* users or if you want to invite guest users, you can *Bulk Invite* them.
+
+You can do this with a csv file.

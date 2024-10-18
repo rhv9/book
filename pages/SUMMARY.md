@@ -50,7 +50,7 @@
     - [Desired State Configuration](./VirtualMachine/desired_state_configuration.md)
     - [Virtual Machine Scale Sets](./VirtualMachine/vmss.md)
 
-- [Azure Subscription and RBA0C](./AzureSubscriptionAndRBAC/intro_subscription_and_rbac.md)
+- [Azure Subscription and RBAC](./AzureSubscriptionAndRBAC/intro_subscription_and_rbac.md)
     - [Types of Subscriptions](./AzureSubscriptionAndRBAC/types_of_subscription.md)
     - [How are Azure Subscriptions and Azure AD related](./AzureSubscriptionAndRBAC/azure_subscription_and_rbac_relation.md)
     - [Management Groups and Resource Groups](./AzureSubscriptionAndRBAC/management_groups_and_resource_groups.md)
@@ -67,15 +67,16 @@
 - [Azure Automation]()
 
 - [Azure Monitoring and log Analytics ](./AzureMonitoringAndLogAnalytics/intro_monitoring.md)
-    - [Capture and View Metric](./AzureMonitoringAndLogAnalytics/capture_and_view_metric.md)
+- [Capture and View Metric](./AzureMonitoringAndLogAnalytics/capture_and_view_metric.md)
     - [Managing Alerts](./AzureMonitoringAndLogAnalytics/managing_alerts.md)
     - [Log Analytics Workspace](./AzureMonitoringAndLogAnalytics/log_analytics_workspace.md)
 
-- [Administrating Microsoft Entra ID(Azure AD)](./AdministratingMicrosoftEntraID/intro_entra_id.md)
+- [Entra ID (Azure AD)](./AdministratingMicrosoftEntraID/intro_entra_id.md)
     - [Entra ID Tenants](./AdministratingMicrosoftEntraID/entra_id_tenants.md)
     - [Entra ID Licenses](./AdministratingMicrosoftEntraID/entra_id_licenses.md)
     - [Users and Groups](./AdministratingMicrosoftEntraID/users_and_groups.md)
     - [Administrative Units](./AdministratingMicrosoftEntraID/administrative_units.md)
+    - [Conditional Access Policies](./AdministratingMicrosoftEntraID/conditional_access_policies.md)
     - [Self Service Password Reset](./AdministratingMicrosoftEntraID/self_service_password_reset.md)
     - [Azure AD Connect](./AdministratingMicrosoftEntraID/azure_ad_connect.md)
 

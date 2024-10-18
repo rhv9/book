@@ -25,3 +25,8 @@
 - 36 Custom domain names
 - 39 What is local VPN Gateway? S2S vpn
 - 42 Azure private DNS ZONES???
+- 43 DNS Server listens on port 53
+
+## 
+
+- What resources can you move between subscriptions?

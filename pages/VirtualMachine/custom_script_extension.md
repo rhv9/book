@@ -4,7 +4,7 @@ These are post-deployment installation or configuration of VM. There are several
 
 #### Custom Script Extension
 
-This is an extension that when created, will run the script specified on creation of the extension. 
+This is an extension that when created, will run the script specified on creation of the extension. It is only run once in its lifetime. You want to a script to run on every startup, you can write a scheduled task for Windows or equivalent in Linux.
 
 We can either provide a public file uri to download and run, or use a blob file in a storage container to download and run.
 
@@ -23,3 +23,6 @@ Set-AzVMCustomScriptExtension `
 ```
 
 There is also a general extension script which you can specify in parameters the exact extension.
+
+Some facts:
+- Timeout after 90 minutes.
