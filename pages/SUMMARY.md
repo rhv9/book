@@ -76,6 +76,7 @@
     - [Entra ID Licenses](./AdministratingMicrosoftEntraID/entra_id_licenses.md)
     - [Users and Groups](./AdministratingMicrosoftEntraID/users_and_groups.md)
     - [Administrative Units](./AdministratingMicrosoftEntraID/administrative_units.md)
+    - [MFA](./AdministratingMicrosoftEntraID/mfa.md)
     - [Conditional Access Policies](./AdministratingMicrosoftEntraID/conditional_access_policies.md)
     - [Self Service Password Reset](./AdministratingMicrosoftEntraID/self_service_password_reset.md)
     - [Azure AD Connect](./AdministratingMicrosoftEntraID/azure_ad_connect.md)

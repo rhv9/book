@@ -4,6 +4,8 @@
 
 > Note! Each user under the scope of the policy requires at least a P1 license.
 
+![Overview of conditional access policies](../images/conditional-access-overview.png)
+
 Modern security includes several factors when giving access to resources. Rather than just being within a network, it now factors identity and other factors for all signals before given access. These factors include:
 
 1. User or group membership: Based on the fine-grained permissions for the user/group.

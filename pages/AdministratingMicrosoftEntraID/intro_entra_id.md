@@ -2,6 +2,8 @@
 
 [Difference between Azure roles and Entra ID roles](https://learn.microsoft.com/en-us/azure/role-based-access-control/rbac-and-directory-admin-roles)
 
+
+
 It is a solution for authenticating users, and authorizating to perform their required tasks.
 
 > It was called Azure Active Directory and is now rebranded to Entra ID

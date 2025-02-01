@@ -16,11 +16,5 @@ At a high level it is about managing the combination of *Security Principal* + *
 Policy Initiative is a single policy whereas Initiative Definition is a group of policies.
 
 
+## Creating policies
 
-## Types of Azure policies
-
-The default type of policy is to deny, however, there are several other:
-
-```diff
-- What are the other types.
-```
